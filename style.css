@@ -52,12 +52,14 @@ body{
     font-size: 16px;
     font-family: 'Josefin Sans', sans-serif;
     font-weight: bold; 
+    opacity: 100%;
 }
 
 #navbar ul li a:hover{
-    background-color: rgb(13, 74, 102);
+    background-color: rgb(20, 119, 165);
     /* border-radius: 20px; */
     transition: all 0.4s ease-in-out;
+    color: black;
 }
 
 /* Body text styling */
@@ -222,6 +224,7 @@ body{
 .diamond{
     text-align: center;
     background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../image/img3.jpg);
+    opacity: 70%;
     clip-path:polygon(0 0, 100% 0, 100% 100%, 70% 75%, 0 100%);
     padding-bottom: 3.2rem;
 }
