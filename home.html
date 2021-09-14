@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LaundryPool : Best Laundry Services</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section class="diamond">
+        <nav id="navbar">
+            <ul>
+                <li class="item"><a href="#">home</a></li>
+                <li class="item"><a href="#">pricing</a></li>
+                <li class="item"><a href="#">about us</a></li>
+                <li class="item"><a href="#">login</a></li>
+            </ul>
+        </nav>
+    </section>
+
+    <section id="body-text">
+        <p>all your laundry solutions <br><span class="text-det">at one place.</span></p>
+    </section>
+
+    <!-- this is for arrow down effect -->
+    <div class="arrow">
+        <a href="#choice">
+            <span></span>
+            <span></span>
+            <span></span>
+        </a>
+    </div>
+
+    <section id="choice">
+        <div class="choice-box">
+            <div class="partner-box">
+                <p><a href="signup-partner.html">Become a Partner.</a></p>
+            </div>
+            <div class="customer-box">
+                <p><a href="#">Avail our Services.</a></p>
+            </div>
+        </div>
+    </section>
+    
+    <section class="colored-section" id="testimonials">
+
+        <div id="testimonial-carousel" class="carousel slide" data-ride="carousel" data-interval="3500"
+            data-pause="hover">
+            <div class="carousel-inner">
+                <div class="carousel-item active container-fluid">
+                    <h2 class="testimonial-text">I no longer have to sniff other dogs for love. I've found the hottest
+                        Corgi on TinDog. Woof.</h2>
+                    <img class="testimonial-image" src="images/dog-img.jpg" alt="dog-profile">
+                    <em>Pebbles, New York</em>
+                </div>
+                <div class="carousel-item container-fluid">
+                    <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the
+                        love of their life. I think.</h2>
+                    <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
+                    <em>Beverly, Illinois</em>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+        
+    </section>
+
+    <section class="diamond">
+        <h2>Join us today</h2>
+        <h5>Get the best service sitting at home</h3>
+        <a href="aboutus.html"><button class="btn btn-primary">learn more</button></a>
+    </section>
+
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script>
+        VanillaTilt.init(document.querySelector(".partner-box"), {
+            max: 30,
+            speed: 2500
+        });
+        VanillaTilt.init(document.querySelector(".customer-box"), {
+            max: 30,
+            speed: 2500
+        });
+    </script>
+</body>
+
+</html>
