@@ -18,7 +18,7 @@
 .aside-left {
   display: none;
   width: 40%;
-  left: 0;
+  right: 0;
   background-color: rgba(23, 23, 167, 0.8);
   -webkit-transform: translateY(-100%);
   -moz-transform: translateY(-100%);
@@ -174,4 +174,5 @@ p {
 
 .toggle-pos{
     position: absolute;
+    right: 0;
 }
