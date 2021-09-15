@@ -7,14 +7,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LaundryPool : Best Laundry Services</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="toggle.css">
 
     <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
-    
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>
@@ -29,12 +31,6 @@
 <body>
     <section class="diamond">
         <nav id="navbar">
-            <ul>
-                <li class="item"><a href="#">home</a></li>
-                <li class="item"><a href="#">pricing</a></li>
-                <li class="item"><a href="#">about us</a></li>
-                <li class="item"><a href="#">login</a></li>
-            </ul>
         </nav>
     </section>
 
@@ -61,7 +57,7 @@
             </div>
         </div>
     </section>
-    
+
     <section class="colored-section" id="testimonials">
 
         <div id="testimonial-carousel" class="carousel slide" data-ride="carousel" data-interval="3500"
@@ -87,14 +83,14 @@
                 <span class="carousel-control-next-icon"></span>
             </a>
         </div>
-        
+
     </section>
 
     <!-- this is used to add the diamond design for navbar and footers -->
     <section class="diamond">
         <h2>Join us today</h2>
         <h5>Get the best service sitting at home</h3>
-        <a href="aboutus.html"><button class="btn btn-primary">learn more</button></a>
+            <a href="aboutus.html"><button class="btn btn-primary">learn more</button></a>
     </section>
 
     <!-- this is used to give the cards a tilt effect  -->
@@ -109,6 +105,29 @@
             speed: 2500
         });
     </script>
+
+
+    <section class="toggle">
+        <input type="checkbox" id="myInput">
+        <label for="myInput" class="toggle-pos">
+            <span class="bar top"></span>
+            <span class="bar middle"></span>
+            <span class="bar bottom"></span>
+        </label>
+        <aside>
+            <div class="aside-section aside-left">
+                <div class="aside-content">
+                    <ul class="aside-list">
+                        <li><a href="" class="aside-anchor">Home</a></li>
+                        <li><a href="" class="aside-anchor">Pricing</a></li>
+                        <li><a href="" class="aside-anchor">About Us</a></li>
+                        <li><a href="" class="aside-anchor">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+    </section>
+
 </body>
 
 </html>
