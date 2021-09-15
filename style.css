@@ -68,7 +68,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 120px;
+    margin-top: 160px;
     /* margin-right: 40px; */
 }
 
@@ -241,7 +241,7 @@ body{
 #testimonials
 {
     text-align: center;
-    margin-top: -500px;
+    margin-top: -300px;
     margin-bottom: 250px;
     color: rgb(20, 3, 66);
     margin-left: 20px;
