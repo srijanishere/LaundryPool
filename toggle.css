@@ -19,7 +19,8 @@
   display: none;
   width: 40%;
   right: 0;
-  background-color: rgba(23, 23, 167, 0.9);
+  background: linear-gradient(to bottom, #eb1ab6, #191ce4, #0f1180);
+  opacity: 0.9; 
   -webkit-transform: translateY(-100%);
   -moz-transform: translateY(-100%);
   -ms-transform: translateY(-100%);
