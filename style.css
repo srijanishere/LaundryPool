@@ -84,6 +84,13 @@ body{
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     color: white;
+    text-shadow: 0px 0px 0 rgb(200,199,195),
+                 1px 1px 0 rgb(156,155,151),
+                 2px 2px 0 rgb(111,110,106),
+                 3px 3px  0 rgb(66,65,61),
+                 4px 4px 3px rgba(9,9,10,0.43),
+                 4px 4px 1px rgba(9,9,10,0.5),
+                 0px 0px 3px rgba(9,9,10,.2);
 }
 
 .arrow{
@@ -167,7 +174,7 @@ body{
 
 .customer-box:hover, .partner-box:hover{
     transform: translateY(-22px);
-    background: linear-gradient(to bottom, #3ae264, #40bebe);
+    background: linear-gradient(to bottom, #31eb5f, #129999);
     /* box-shadow: rgb(39, 38, 38) 8px 8px 8px 1px; */
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
     /* box-shadow: rgba(17, 57, 168, 0.4) -5px 5px, rgba(17, 57, 168, 0.4) -10px 10px, rgba(17, 57, 168, 0.4) -15px 15px, rgba(18, 6, 88, 0.1) -20px 20px, rgba(18, 6, 88, 0.1) -25px 25px; */
@@ -204,9 +211,15 @@ body{
     transform-origin: bottom left;
   } */
 
-  .text-det{
-      color: rgb(20, 3, 66);
-  }
+.text-det{
+    color: rgb(47, 10, 151);
+    text-shadow: 0px 0px 0 rgb(-54,-58,62),
+                1px 1px 0 rgb(-131,-135,0),
+                2px 2px  0 rgb(-207,-211,0),
+                3px 3px 2px rgba(20, 3, 66,0.6),
+                3px 3px 1px rgba(20, 3, 66,0.5),
+                0px 0px 2px rgba(20, 3, 66,.2);
+}
 
 .diamond h2{
     color: white;
