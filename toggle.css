@@ -149,7 +149,7 @@ label {
 
 .bar {
   display: block;
-  background-color: #f0f3f5;
+  background-color: white;
   width: 30px;
   height: 3px;
   border-radius: 5px;

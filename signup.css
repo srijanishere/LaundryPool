@@ -2,6 +2,7 @@ body{
     margin: 0;
     padding: 0;
     background-color: rgb(78, 221, 240);
+    /* background-color: black; */
     font-family: 'Poppins', sans-serif;
 }
 
@@ -15,7 +16,7 @@ body{
 }
   
 .icon {
-    padding: 10px;
+    padding: 18px;
     color: rgb(7, 6, 68);
     min-width: 50px;
     text-align: center;
@@ -33,12 +34,19 @@ body{
     /* margin: 10px; */
     background: rgba(78, 221, 240,0);
     border: none;   
-    border-bottom:2px solid rgb(7, 6, 68);
+    border:2px solid rgb(7, 6, 68);
+    border-radius: 20px;
     color: rgb(7, 6, 68);
     font-weight: bold;
     font-size: 17px;
     cursor: pointer;
     outline: none;
+    margin: 5px 0;
+}
+
+.input-field:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
 }
   
 h2 {
@@ -68,21 +76,22 @@ h2 {
     display: block;
     margin: 40px auto;
     text-align: center;
-    background: rgb(7, 6, 68);
+    background: rgb(29, 102, 185);
     color: white;
     border: none;
     border-radius: 10px;
     cursor: pointer;
-    box-shadow: 2px 2px 5px 1px rgba(1, 6, 24,0.8);
+    box-shadow: 2px 2px 3px 1px rgba(1, 6, 24,0.5);
     font-weight: bold;
+    border: 0px solid white;
+    font-size: 15px;
 }
 
 .button:hover{
-    background: rgb(177, 169, 169);
-    color: black;
+    box-shadow: 2px 3px 6px 1.2px rgb(1, 6, 24);
+    font-weight: bolder;
     transition: all 0.3s ease-in-out;
 }
-
 .check{
     background: blue;
     margin: 20px auto;
@@ -95,6 +104,8 @@ h2 {
     box-sizing: border-box;
     height: 1.3vw;
     width: 1.3vw;
+    margin-top: 70px;
+    margin-left: 15px;
     border-style: solid;
     border-color: rgb(3, 3, 71);
     border-width: 0px 1px 1px 0px;
@@ -118,7 +129,7 @@ h2 {
     justify-content: center;
     height: 40px;
     width: 54px;
-    margin: -55px -70px;
+    margin: -20px -70px;
   }
 
   .container span{
