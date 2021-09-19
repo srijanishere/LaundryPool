@@ -6,7 +6,7 @@ body{
     margin: 0;
     padding: 0;
     /* background-color: rgb(22, 155, 216); */
-    background: linear-gradient(to bottom, #1fa2ff, #12d8fa, #a6ffcb);
+    background: linear-gradient(to bottom, #1f85ce, #2ecde9, #a6ffcb);
     /* background: linear-gradient(to bottom, #0c0c0c, #2a2a2a, #646665); */
     /* background: linear-gradient(to bottom, #04384d, #042224, #010a06); */
 }
