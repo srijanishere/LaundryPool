@@ -9,7 +9,7 @@ It lets you connect to your nearby laundry stores and lets you select a one that
 ## Why should you use it?
 We as human beings always want to maximise productivity and minimise the time spent behind tasks. A lot of times we experience trivial tasks getting in way of our daily schedule and thus hindering with it, and one such task is laundry. How many times can you re-call forgetting to do your laundry or even getting annoyed by the thought of taking your clothes to the laundry and bringing it back? If you ask me, definitely quite a few times!
 
-LaundryPool minimizes all of the above mentioned tasks to just clicking some buttons. Open our website, lock a time-slot and just sit back relax or go on working on the more important things. Our executives would be at your door-step to **collect** your laundry and again **deliver** it back to you when done, while you can track your package as soon as it leaves your door-step till the time it is returned to you.
+LaundryPool minimizes all of the above mentioned tasks to just clicking some buttons. Open our website, lock a time-slot and just sit back relax or continue working on the more important things. Our executives would be at your door-step to **collect** your laundry and again **deliver** it back to you when done, while you can track your package as soon as it leaves your door-step till the time it is returned to you.
 
 
 ## Features of LaundryPool ✔️
