@@ -28,10 +28,10 @@ LaundryPool minimizes all of the above mentioned tasks to just clicking some but
 
 ## Sneak Peek 👀
 #### **Home Page**
-![HomePage](https://github.com/srijanishere/LaundryPool/blob/main/image/HomePage%201.png)
+![HomePage](https://raw.githubusercontent.com/srijanishere/LaundryPool/main/image/HomePage%201.png)
 
 #### **Contact Page**
-![ContactUs](https://github.com/srijanishere/LaundryPool/blob/main/image/contact%20page.png)
+![ContactUs](https://raw.githubusercontent.com/srijanishere/LaundryPool/main/image/contact%20page.png)
 
 #### **Sign-Up Page**
-![SignUp](https://github.com/srijanishere/LaundryPool/blob/main/image/signup%20page.png)
+![SignUp](https://raw.githubusercontent.com/srijanishere/LaundryPool/main/image/signup%20page.png)
