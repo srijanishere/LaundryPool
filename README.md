@@ -1,4 +1,4 @@
-# LaundryPool 🧺
+# **LaundryPool** 🧺
 LaundryPool is a web-based service which connects between the customer and a laundry to smoothly pick-up/deliver clothes as well as provide a live tracking of the order.
 
 
