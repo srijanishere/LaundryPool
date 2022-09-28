@@ -59,6 +59,11 @@ body{
   font-size: 18px;
   font-weight: 500;
 }
+
+.topic-adjust{
+  margin-bottom: 10px;
+}
+
 .content .left-side .details .text-one,
 .content .left-side .details .text-two{
   font-size: 14px;
@@ -171,10 +176,10 @@ body{
   }
   
   .socials{
-    opacity: 90%;
+    opacity: 100%;
   }
 
-  .socials:hover{
-    opacity: 100%;
+  .socials span a img:hover{
+    opacity: 40%;
     transition: all 0.2s ease-in-out;
   }
