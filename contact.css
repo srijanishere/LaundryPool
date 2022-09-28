@@ -105,18 +105,21 @@ body{
   display: inline-block;
   margin-top: 12px;
 }
-.right-side .button input[type="button"]{
+.right-side .button input{
   color: #fff;
   font-size: 18px;
   outline: none;
   border: none;
+  width: 121.16px;
+  height: 43.5px; 
   padding: 8px 16px;
+  margin: 10px;
   border-radius: 6px;
   background: #3e2093;
   cursor: pointer;
   transition: all 0.3s ease;
 }
-.button input[type="button"]:hover{
+.button input:hover{
   background: #5d33d3;
 }
 
